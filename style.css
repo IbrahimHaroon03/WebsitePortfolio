@@ -113,11 +113,7 @@ img[src="profilePic.jpg"] {
 #Title {
   font-size:xx-large;
   color: white;
-}
-
-#about {
-  margin-top: 450px;
-  margin-left: 180px;
+  margin-bottom: 450px;
 }
 
 fieldset {
@@ -155,11 +151,6 @@ div {
   padding-bottom: 0;
 }
 
-#education, #experience, #projects, #contact, #languages {
-  margin-left: 180px;
-  padding-top: 100px;
-}
-
 .list2 {
   list-style:square;
   margin-left: 50px;
@@ -187,10 +178,6 @@ div {
   justify-content: space-between;
 }
 
-#education, #experience, #projects, #contact {
-  margin-top: -60px;
-}
-
 span {
   background-color: #4B5159;
   padding: 0.5%;
@@ -216,4 +203,12 @@ span {
   border: 1px solid;
   padding-right: 55px;
   padding-left: 55px;
+}
+
+.margin {
+  margin-left: 180px;
+}
+
+#PageEnd {
+  margin-bottom: 100px;
 }
