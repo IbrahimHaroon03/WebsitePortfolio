@@ -83,7 +83,7 @@ body {
   color: #fff;
   background-color: #0071e3;
   padding: 7px 18px;
-  border-radius: 1000px;
+  border-radius: 12px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
@@ -113,7 +113,7 @@ img[src="profilePic.jpg"] {
 #Title {
   font-size:xx-large;
   color: white;
-  margin-bottom: 450px;
+  margin-bottom: 300px;
 }
 
 fieldset {
@@ -146,7 +146,6 @@ div {
 #aboutme {
   padding: 0;
   margin: 0;
-  margin-top: 200px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -211,5 +210,21 @@ span {
 
 #PageEnd {
   margin-bottom: 100px;
+}
+
+.year {
+  margin-bottom: 10px;
+}
+
+#year2 {
+  margin-top: 35px;
+}
+
+.nav__link.active {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav__link.active::after {
+  opacity: 1;
 }
 
