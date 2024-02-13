@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 60px;
+  min-height: 70px;
   max-width: 1200px;
   padding: 0 30px;
   margin: 0 auto;
@@ -114,15 +114,17 @@ img[src="profilePic.jpg"] {
   font-size:xx-large;
   color: white;
   margin-bottom: 300px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 fieldset {
-  margin-right: 180px;
   border-radius: 5px;
   border: 1px solid;
   font-size: large;
   color: white;
   border-color: #363940;
+  background-color: rgb(19, 22, 26);
 }
 
 legend {
@@ -205,7 +207,8 @@ span {
 }
 
 .margin {
-  margin-left: 180px;
+  margin-left: 270px;
+  margin-right: 270px;
 }
 
 #PageEnd {
@@ -227,4 +230,3 @@ span {
 .nav__link.active::after {
   opacity: 1;
 }
-
