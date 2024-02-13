@@ -14,15 +14,13 @@ ul {
   list-style: none;
 }
 
-/* BASE STYLES */
 body {
   background-color: rgba(13,17,23,0.95);
   font-family: 'Inter', sans-serif;
-  min-height: 3000px;
-  padding-top: 60px;
+  min-height: 3%;
+  padding-top: 4%;
 }
 
-/* NORMAL STYLES */
 .header {
   background-color: rgb(19, 22, 26);
   position: fixed;
@@ -34,8 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 70px;
-  max-width: 1200px;
+  height: 70px;
   padding: 0 30px;
   margin: 0 auto;
 }
@@ -45,11 +42,13 @@ body {
   display: block;
 }
 
+/*The Style for active nav bar*/
 .nav__list {
   display: flex;
   column-gap: 40px;
 }
 
+/*The Style for active nav bar*/
 .nav__link {
   color: rgba(255, 255, 255, 0.75);
   font-size: 15px;
@@ -57,11 +56,12 @@ body {
   position: relative;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+/*The Style for active nav bar*/
+.nav__link:hover, .nav__link:focus {
   color: rgba(255, 255, 255, 1);
 }
 
+/*The Style for active nav bar*/
 .nav__link::after {
   content: '';
   height: 2px;
@@ -75,9 +75,21 @@ body {
   pointer-events: none;
 }
 
+/*The Style for active nav bar*/
 .nav__link:hover::after {
   opacity: 1;
 }
+
+/*The Style for active nav bar*/
+.nav__link.active {
+  color: rgba(255, 255, 255, 1);
+}
+
+/*The Style for active nav bar*/
+.nav__link.active::after {
+  opacity: 1;
+}
+
 
 .btn {
   color: #fff;
@@ -94,32 +106,29 @@ body {
   background-color: rgb(28, 128, 228);
 }
 
-img[src="profilePic.jpg"] {
-  border-radius: 50%;
-  float: right;
-  width: 500px;
-  margin-right: 180px;
-  margin-top: -260px;
-}
-
-.name {
-  margin-left: 180px;
-}
-
 #nameTitle {
-  margin-top: 300px;
+  margin-top: 15%;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-family: "Noto Sans SC", sans-serif;
 }
 
 #Title {
   font-size:xx-large;
   color: white;
-  margin-bottom: 300px;
-  padding-left: 13px;
-  padding-right: 13px;
+  margin-bottom: 15%;
 }
 
 fieldset {
   border-radius: 5px;
+  padding: 1.5%;
   border: 1px solid;
   font-size: large;
   color: white;
@@ -137,19 +146,12 @@ legend {
   border-left-color: #363940;
   border-top: none;
   border-bottom: none;  
-  color: #1f6feb;;
-
+  color: #1f6feb;
 }
 
-div {
-  padding: 20px;
-}
-
-#aboutme {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
+.margin {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .list2 {
@@ -162,71 +164,42 @@ div {
   margin-bottom: 15px;
 }
 
-.lastlist {
-  margin-bottom: -15px;
-}
-
+/*Set languages images sizes*/
 .languages {
   height: 50px;
 }
 
-.paragraphs {
-  margin-top: 15px;
-}
-
+/*Spreads the language icons out*/
 #imagecontainer {
   display: flex;
   justify-content: space-between;
 }
 
+/*The grey shading around sub titles*/
 span {
   background-color: #4B5159;
   padding: 0.5%;
   border-radius: 5%;
 }
 
+/*Keeps the date on the right*/
 .date {
   float: right;
 }
 
-#contacts {
-  margin-top: 10px;
-  display: flex;
-  justify-content: start;
-}
-
+/*Sets the space between the contact option images*/
 .linkimage {
   margin-right: 10px;
 }
 
+/*Sets the dimensions of the github button*/
 #github {
-  border-color: grey;
   border: 1px solid;
   padding-right: 55px;
   padding-left: 55px;
 }
 
-.margin {
-  margin-left: 270px;
-  margin-right: 270px;
-}
-
-#PageEnd {
-  margin-bottom: 100px;
-}
-
-.year {
-  margin-bottom: 10px;
-}
-
-#year2 {
-  margin-top: 35px;
-}
-
-.nav__link.active {
-  color: rgba(255, 255, 255, 1);
-}
-
-.nav__link.active::after {
-  opacity: 1;
+.anchors {
+  padding-bottom: 6%;
+  padding-top: 0;
 }
